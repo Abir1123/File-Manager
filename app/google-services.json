@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1011949308636",
+    "project_id": "filemanager-a7770",
+    "storage_bucket": "filemanager-a7770.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011949308636:android:5eda59d0906671af050219",
+        "android_client_info": {
+          "package_name": "com.example.filemanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNISJ8hyzmSirojxEat5dN1v8YBglKEDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

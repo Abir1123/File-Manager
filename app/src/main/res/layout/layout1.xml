@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="4"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="File Manager"
+            android:textColor="@color/Green"
+            android:textSize="25sp" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@color/black"
+            android:text="Update"
+            android:textSize="10dp" />
+        <TextView
+            android:id="@+id/pathOutput"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:background="@color/DarkGreen"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/newfolder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@color/black"
+            android:text="New Folder"
+            android:textSize="12dp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:layout_weight="1" />
+
+        <LinearLayout
+
+            android:id="@+id/buttonBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/b1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lightColor"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/b2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lightColor"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Rename"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/b3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lightColor"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Copy"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/b4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/lightColor"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Paste"
+                android:textColor="@color/black"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/Yellow"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+           android:layout_marginBottom="25dp"
+            android:text="Back"
+            android:textColor="@color/DarkGreen" />
+
+</LinearLayout>
